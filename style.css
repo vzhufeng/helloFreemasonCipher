@@ -1,0 +1,121 @@
+.bg-a {
+  background: url("css_sprites.png") -1.25px -1.25px;
+}
+.bg-b {
+  background: url("css_sprites.png") -35.75px -1.25px;
+}
+.bg-c {
+  background: url("css_sprites.png") -1.25px -35.75px;
+}
+.bg-d {
+  background: url("css_sprites.png") -35.75px -35.75px;
+}
+.bg-e {
+  background: url("css_sprites.png") -71.5px -35.75px;
+}
+.bg-f {
+  background: url("css_sprites.png") -71.5px -1.25px;
+}
+.bg-g {
+  background: url("css_sprites.png") -1.25px -71.5px;
+}
+.bg-h {
+  background: url("css_sprites.png") -35.75px -71.5px;
+}
+.bg-i {
+  background: url("css_sprites.png") -104.75px -1.25px;
+}
+.bg-j {
+  background: url("css_sprites.png") -71.5px -71.5px;
+}
+.bg-k {
+  background: url("css_sprites.png") -104.75px -71.5px;
+}
+.bg-l {
+  background: url("css_sprites.png") -104.75px -35.75px;
+}
+.bg-m {
+  background: url("css_sprites.png") -35.75px -104.75px;
+}
+.bg-n {
+  background: url("css_sprites.png") -1.25px -104.75px;
+}
+.bg-o {
+  background: url("css_sprites.png") -71.5px -104.75px;
+}
+.bg-p {
+  background: url("css_sprites.png") -139.25px -71.5px;
+}
+.bg-q {
+  background: url("css_sprites.png") -104.75px -104.75px;
+}
+.bg-r {
+  background: url("css_sprites.png") -139.25px -1.25px;
+}
+.bg-s {
+  background: url("css_sprites.png") -1.25px -139.25px;
+}
+.bg-t {
+  background: url("css_sprites.png") -139.25px -35.75px;
+}
+.bg-u {
+  background: url("css_sprites.png") -35.75px -139.25px;
+}
+.bg-v {
+  background: url("css_sprites.png") -71.5px -139.25px;
+}
+.bg-w {
+  background: url("css_sprites.png") -139.25px -104.75px;
+}
+.bg-x {
+  background: url("css_sprites.png") -173.75px -1.25px;
+}
+.bg-y {
+  background: url("css_sprites.png") -104.75px -139.25px;
+}
+.bg-z {
+  background: url("css_sprites.png") -139.25px -139.25px;
+}
+
+.bg-comma {
+  background: url("comma.png") 0 0 / 32px 32px;
+}
+
+.bg-period {
+  background: url("period.png") 0 0 / 32px 32px;
+}
+
+.bg-exclamation {
+  background: url("exclamation.png") 0 0 / 32px 32px;
+}
+
+.bg-question {
+  background: url("question.png") 0 0 / 32px 32px;
+}
+
+.bg-number {
+  font-size: 32px;
+}
+
+.bg-comma,
+.bg-period,
+.bg-exclamation,
+.bg-question,
+.bg-number {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin: 5px 2px;
+  vertical-align: middle;
+  line-height: 32px;
+  text-align: center;
+}
+
+.bg {
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  background-size: 207px 172.5px;
+  display: inline-block;
+  margin: 5px 2px;
+}
