@@ -78,11 +78,11 @@
 }
 
 .bg-comma {
-  background: url("comma.png") 0 0 / 32px 32px;
+  background: url("comma.png") 0 10px / 32px 32px;
 }
 
 .bg-period {
-  background: url("period.png") 0 0 / 32px 32px;
+  background: url("period.png") 0 10px / 32px 32px;
 }
 
 .bg-exclamation {
