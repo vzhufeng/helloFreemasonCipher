@@ -1,37 +1,36 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
-
+  <input type="text" id="typer" />
+  <button onclick="gen();">generate</button>
+  <div class="container"></div>
   <body>
     <script type="text/javascript">
-      var words = "hello123,  freemason.  cipher ?!!";
 
-      let frag = document.createDocumentFragment();
-      for (let i = 0, len = words.length; i < len; i++) {
-        let div = document.createElement("div");
-        if (words[i] == ",") {
-          div.className = "bg-comma";
-        } else if (words[i] == ".") {
-          div.className = "bg-period";
-        } else if (words[i] == "!") {
-          div.className = "bg-exclamation";
-        } else if (words[i] == "?") {
-          div.className = "bg-question";
-        } else if (/[a-zA-z]/.test(words[i])) {
-          div.className = "bg bg-" + words[i];
-        } else if (/\d/.test(words[i])) {
-          div.className = "bg-number";
-          div.innerHTML = words[i];
-        } else {
-          div.className = "bg";
+      let input = document.querySelector("#typer");
+
+      function gen() {
+        let words = input.value;
+        document.querySelector(".container").innerHTML = '';
+
+        let frag = document.createDocumentFragment();
+        for (let i = 0, len = words.length; i < len; i++) {
+          let div = document.createElement("div");
+
+          if (/[a-zA-z]/.test(words[i])) {
+            div.className = "bg bg-" + words[i];
+          }else{
+            div.className = "bg bg-number";
+            div.innerHTML = words[i];
+          }
+
+          frag.appendChild(div);
         }
-
-        frag.appendChild(div);
+        document.querySelector(".container").appendChild(frag);
+        frag = "";
       }
-      document.body.appendChild(frag);
-      frag = "";
     </script>
   </body>
 </html>

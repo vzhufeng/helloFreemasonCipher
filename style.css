@@ -77,30 +77,10 @@
   background: url("css_sprites.png") -139.25px -139.25px;
 }
 
-.bg-comma {
-  background: url("comma.png") 0 10px / 32px 32px;
-}
-
-.bg-period {
-  background: url("period.png") 0 10px / 32px 32px;
-}
-
-.bg-exclamation {
-  background: url("exclamation.png") 0 0 / 32px 32px;
-}
-
-.bg-question {
-  background: url("question.png") 0 0 / 32px 32px;
-}
-
 .bg-number {
   font-size: 32px;
 }
 
-.bg-comma,
-.bg-period,
-.bg-exclamation,
-.bg-question,
 .bg-number {
   width: 32px;
   height: 32px;
